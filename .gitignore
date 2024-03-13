@@ -1,0 +1,18 @@
+## ignore all files in all subdirectories (including /)
+**/*
+
+## except: all subdirectories (just folders)
+!**/
+
+## except: gitignore file (only the one in /)
+!.gitignore
+
+## except: any file in any subdirectory that matches:
+!**/*.md
+!**/*.cpp
+!**/*.hpp
+!**/*.ipp
+!**/*.sh
+!**/*.txt
+!**/*.gnu
+!**/*.py
